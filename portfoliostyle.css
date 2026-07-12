@@ -1,27 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>PORTFOLIO</title>
-</head>
-<body>
-  <div class="header">
-<p>Aaradhya</p>
-<nav></nav>
-<ul>
-  <li>home</li>
-  <li>education</li>
-  <li>achievements</li>
-<li>hobbies</li>
-<li>contact me!</li>
-</ul>
-</nav>
-</div>
-<div class=""details">
-<h1>Dive into my world and explore every piece of my achievements!</h1>
-<p>hey , I am Aaradhya, a student of grade 8th , who knows pretty  much of coding .  I like to read books , explore hobbies and create new inventions . until now i am writing one book and a part time researcher , maybe we can connect becuase we seem to have same interest!see you soon!</p>
-</div>
-<div class="images">
-<img src="paper..jfif" alt="a crumbled paper">
-</div>
-</body>
-</html>
+
+.header {
+
+    width: 100vw;
+    height:100vh;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue
+
+}
+.logo::first-letter {
+    color: darkblue;
+    font-size: 60px;
+    border: 2px solid black;
+    border-right: transparent;
+    padding: 0 5px;
+    color: #fd766f;
+    
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav li {
+    position: relative;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav li:hover {
+    color: red;
+}
+.button {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 100;
+    background: #fd766f;
+    border-radius: 500px;
+    color: white;
+}
